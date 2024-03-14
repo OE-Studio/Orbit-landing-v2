@@ -1043,6 +1043,26 @@ video {
   text-align: center;
 }
 
+.font-clash-medium {
+  font-family: ClashGrotesk-Medium;
+}
+
+.font-geist {
+  font-family: GeistVariable;
+}
+
+.font-polysans-bold {
+  font-family: PolySans Bulky;
+}
+
+.font-polysans-semibold {
+  font-family: PolySans Median;
+}
+
+.font-polysans-slim {
+  font-family: PolySans Slim;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -1269,16 +1289,16 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
   }
 
   .lg\:col-span-3 {
     grid-column: span 3 / span 3;
-  }
-
-  .lg\:col-span-1 {
-    grid-column: span 1 / span 1;
   }
 
   .lg\:mt-0 {
@@ -1350,10 +1370,6 @@ video {
 
   .xl\:col-span-1 {
     grid-column: span 1 / span 1;
-  }
-
-  .xl\:col-span-2 {
-    grid-column: span 2 / span 2;
   }
 
   .xl\:mt-11 {
