@@ -49,14 +49,14 @@
                     <img src="./assets/logos/dark_logo.svg" alt="Orbit logo">
 
                     <!-- burger -->
-                    <div class="w-[18px] h-4 flex flex-col justify-between burger md:hidden">
+                    <div onclick="toggleNav()" class="w-[18px] h-4 flex flex-col justify-between burger md:hidden">
                         <div class="w-full h-0.5 bg-black line1"></div>
                         <div class="w-full h-0.5 bg-black line2"></div>
                         <div class="w-full h-0.5 bg-black line3"></div>
                     </div>
                 </div>
 
-                <div class="flex md:flex items-center justify-between mt-11 md:mt-0 nav-links md:gap-6">
+                <div class="flex md:flex items-center justify-between mt-11 md:mt-0 nav-links md:gap-6 hidden">
                     <a href="#" class="p-4 flex items-center gap-2 bg-[#FBFBFB] rounded-full border border-[#ECECEC]">
                         <p class="text-[#484848] font-semibold">Sign in</p>
 
@@ -146,8 +146,8 @@
                 </header>
 
                 <div class="mt-20 w-full overflow-x-scroll">
-                    <div class="flex justify-between items-center text-lg xl:text-2xl font-polysans-slim gap-7">
-                        <div class="1 bg-[#F5F5F5] px-5 xl:px-6 pt-5 xl:pt-6 rounded-lg xl:rounded-2xl w-full relative overflow-hidden">
+                    <div class="flex flex-nowrap justify-between items-center text-lg xl:text-2xl font-polysans-slim gap-7 overflow-y-hidden">
+                        <div class="1 bg-[#F5F5F5] px-5 xl:px-6 pt-5 xl:pt-6 rounded-lg xl:rounded-2xl w-full relative  ">
                             <div onclick="showMore(0)" class="w-[80vw] md:w-full">
                                 <div class="flex items-start justify-between">
                                     <p>Earn orbit<br/> coin when you<br/> refer and spend</p>
@@ -175,7 +175,7 @@
                             </div>
                         </div>
 
-                        <div class="2 bg-[#F5F5F5] px-5 xl:px-6 pt-5 xl:pt-6 rounded-lg xl:rounded-2xl w-full relative overflow-hidden">
+                        <div class="2 bg-[#F5F5F5] px-5 xl:px-6 pt-5 xl:pt-6 rounded-lg xl:rounded-2xl w-full relative ">
                             <div onclick="showMore(1)" class="w-[80vw] md:w-auto">
                                 <div class="flex items-start justify-between">
                                     <p>track your<br/> expenses to<br/> stay in charge</p>
@@ -202,7 +202,7 @@
                             </div>
                         </div>
 
-                        <div class="3 bg-[#F5F5F5] px-5 xl:px-6 pt-5 xl:pt-6 rounded-lg xl:rounded-2xl w-full relative overflow-hidden">
+                        <div class="3 bg-[#F5F5F5] px-5 xl:px-6 pt-5 xl:pt-6 rounded-lg xl:rounded-2xl w-full relative ">
                             <div onclick="showMore(2)" class="w-[80vw] md:w-auto">
                                 <div class="flex items-start justify-between">
                                     <p>See your<br/> transactions<br/> at a glance</p>
@@ -351,7 +351,7 @@
                 </div>
             </div>
 
-            <div class="flex md:flex items-center justify-center gap-6 mt-10 nav-links md:gap-6">
+            <div class="flex md:flex items-center justify-center gap-6 mt-16 md:mt-10 nav-links md:gap-6">
                 <a href="#" class="p-4 flex items-center gap-2 bg-[#FBFBFB] rounded-full border border-[#ECECEC]">
                     <p class="text-[#484848] font-semibold">Sign in</p>
 
