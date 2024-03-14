@@ -1,1 +1,16 @@
 /* onload for hero */
+.modulate{
+    animation: modulate 4s ease-in-out infinite;
+}
+
+@keyframes modulate {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

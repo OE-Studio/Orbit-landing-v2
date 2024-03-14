@@ -638,6 +638,94 @@ video {
   top: 3rem;
 }
 
+.-left-0 {
+  left: -0px;
+}
+
+.-left-full {
+  left: -100%;
+}
+
+.-left-20 {
+  left: -5rem;
+}
+
+.-left-28 {
+  left: -7rem;
+}
+
+.-left-32 {
+  left: -8rem;
+}
+
+.right-24 {
+  right: 6rem;
+}
+
+.-right-24 {
+  right: -6rem;
+}
+
+.-right-40 {
+  right: -10rem;
+}
+
+.-right-48 {
+  right: -12rem;
+}
+
+.-right-52 {
+  right: -13rem;
+}
+
+.-bottom-0 {
+  bottom: -0px;
+}
+
+.-bottom-12 {
+  bottom: -3rem;
+}
+
+.-bottom-8 {
+  bottom: -2rem;
+}
+
+.-left-12 {
+  left: -3rem;
+}
+
+.-left-4 {
+  left: -1rem;
+}
+
+.-left-8 {
+  left: -2rem;
+}
+
+.left-8 {
+  left: 2rem;
+}
+
+.-right-0 {
+  right: -0px;
+}
+
+.-right-20 {
+  right: -5rem;
+}
+
+.right-20 {
+  right: 5rem;
+}
+
+.-right-10 {
+  right: -2.5rem;
+}
+
+.-bottom-16 {
+  bottom: -4rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1182,6 +1270,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\#D1D1D1\] {
+  --tw-text-opacity: 1;
+  color: rgb(209 209 209 / var(--tw-text-opacity));
+}
+
 @media (min-width: 768px) {
   .md\:-bottom-20 {
     bottom: -5rem;
@@ -1211,6 +1304,22 @@ video {
     top: 25%;
   }
 
+  .md\:left-0 {
+    left: 0px;
+  }
+
+  .md\:-left-0 {
+    left: -0px;
+  }
+
+  .md\:-left-12 {
+    left: -3rem;
+  }
+
+  .md\:-left-16 {
+    left: -4rem;
+  }
+
   .md\:col-span-1 {
     grid-column: span 1 / span 1;
   }
@@ -1233,6 +1342,10 @@ video {
 
   .md\:block {
     display: block;
+  }
+
+  .md\:inline-block {
+    display: inline-block;
   }
 
   .md\:flex {
@@ -1322,9 +1435,21 @@ video {
   .md\:pt-6 {
     padding-top: 1.5rem;
   }
+
+  .md\:pt-0 {
+    padding-top: 0px;
+  }
+
+  .md\:text-center {
+    text-align: center;
+  }
 }
 
 @media (min-width: 1024px) {
+  .lg\:left-8 {
+    left: 2rem;
+  }
+
   .lg\:col-span-1 {
     grid-column: span 1 / span 1;
   }
@@ -1377,6 +1502,10 @@ video {
     flex-direction: column;
   }
 
+  .lg\:items-center {
+    align-items: center;
+  }
+
   .lg\:justify-start {
     justify-content: flex-start;
   }
@@ -1393,6 +1522,10 @@ video {
     padding-bottom: 6rem;
   }
 
+  .lg\:text-left {
+    text-align: left;
+  }
+
   .lg\:text-9xl {
     font-size: 8rem;
     line-height: 1;
@@ -1402,6 +1535,10 @@ video {
 @media (min-width: 1280px) {
   .xl\:-left-20 {
     left: -5rem;
+  }
+
+  .xl\:-left-32 {
+    left: -8rem;
   }
 
   .xl\:col-span-1 {
@@ -1506,5 +1643,20 @@ video {
   .xl\:text-8xl {
     font-size: 6rem;
     line-height: 1;
+  }
+
+  .xl\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .xl\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
+  }
+
+  .xl\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }

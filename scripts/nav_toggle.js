@@ -11,3 +11,13 @@ const toggleNav = () =>{
 
     navLinks.classList.toggle("hidden")
 }
+
+
+const download = () =>{
+    console.log(navigator.userAgent)
+    if (/iPad|iPhone|Mac|iPod/.test(navigator.userAgent)) {
+        console.log("This is an iOS device.");
+    } else {
+        console.log("This is not an iOS device!");
+    }
+}
