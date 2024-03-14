@@ -1,0 +1,25 @@
+.burger{
+    transition: 1s;
+}
+
+.animate-line1 {
+    animation: rotate-right 1s ease forwards;
+}
+
+@keyframes rotate-right {
+    to {
+        transform:rotate(50deg);
+        transform-origin: 0%;
+    }
+}
+
+.animate-line3 {
+    animation: rotate-left 1s ease forwards;
+}
+
+@keyframes rotate-left {
+    to{
+        transform:rotate(-50deg);
+        transform-origin: 0%;
+    }
+}
