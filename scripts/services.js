@@ -49,13 +49,15 @@ for(let i= 0; i< servicesArr.length; i++){
     // title
     let title = document.createElement("p")
     title.textContent = servicesArr[i].title
-    title.style.color = "#333333"
+    title.style.color = "#767676"
+    title.classList.add("geist", "font-semibold")
     // Text
     let text = document.createElement("p")
     text.textContent = servicesArr[i].text
     text.style.color="#A3A3A3"
     text.style.marginTop = "16px"
-    text.style.fontSize="12px"
+    text.style.fontSize="14px"
+    text.classList.add("font-semibold")
     // icon
     let icon = document.createElement("IMG")
     icon.src = servicesArr[i].icon
