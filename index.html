@@ -129,7 +129,7 @@
         </div>
 
         <!-- Services -->
-        <div class="bg-[#1A1A1A] w-full py-16 xl:py-40">
+        <div class="bg-[#1A1A1A] w-full py-16 xl:py-40 md:rounded-t-[32px]">
             <div class="container px-4 mx-auto">
                 <header data-aos="slide-right" class="italic font-polysans-bold text-4xl xl:text-5xl relative inline-block">
                     <p class="text-white">Everyday services,<br/> crafted with care.</p>
@@ -151,7 +151,7 @@
         </div>
 
         <!-- Easy life -->
-        <div class=" w-full py-16 xl:py-40">
+        <div class=" w-full py-16 xl:py-40 md:rounded-t-[32px] -translate-y-10 bg-white">
             <div class="container px-4 mx-auto">
                 <header  data-aos="slide-right" class="italic font-polysans-bold text-4xl xl:text-5xl">
                     <p class="text-[#1A1A1A]">Little things that<br/> make life easier.</p>
@@ -223,7 +223,7 @@
                                 </div>
 
                                 <div class="w-full h-auto">
-                                    <img src="/assets/images/life2-1.png" alt="Life 1" class="block w-full h-auto">
+                                    <img loading="lazy" src="/assets/images/life2-1.png" alt="Life 1" class="block w-full h-auto">
                                 </div>
                             </div>
                         </div>
@@ -239,7 +239,7 @@
                                 </div>
 
                                 <div class="flex justify-center mt-20 xl:mt-24">
-                                    <img loading="lazy" src="/assets/images/life3.svg" alt="Earn Orbit coin when you refer and spend">
+                                    <img loading="lazy" loading="lazy" src="/assets/images/life3.svg" alt="Earn Orbit coin when you refer and spend">
                                 </div>
                             </div>
 
@@ -257,7 +257,7 @@
                                 </div>
 
                                 <div class="w-full h-auto">
-                                    <img src="/assets/images/life3-1.png" alt="Life 1" class="block w-full h-auto">
+                                    <img loading="lazy" src="/assets/images/life3-1.png" alt="Life 1" class="block w-full h-auto">
                                 </div>
                             </div>
                         </div>
@@ -368,17 +368,87 @@
             </div>
         </div>
 
-
+        <!-- Secure by design MObile view -->
         <!-- Secure by design -->
-        <div class="container px-4 mx-auto flex items-center justify-center py-40">
+        <div class="container px-4 mx-auto flex flex-col items-center  py-40 space-y-20 md:hidden">
             <div class="inline-flex flex-col md:flex-row items-center justify-center gap-14">
                 <div>
-                    <img src="/assets/images/Mockup.png" alt="iphone with pin" class="w-60">
+                    <img src="/assets/images/Mockup0.png" alt="iphone with pin" class="w-60">
                 </div>
                 <div>
                     <h2 class="text-[#FF4E4C] font-geist font-semibold ">IN AND OUT</h2>
-                    <h1 class="font-polysans-semibold text-5xl mt-4">Secure by<br/> Design</h1>
+                    <div class="font-polysans-semibold text-5xl mt-4 relative">
+                        Secure by<br/> Design
+                        <img class="absolute bottom-0 right-0" src="/assets/icons/mockup0.svg" alt="lock">
+                    </div>
                     <p class="text-2xl font-polysans-regular mt-8">Intentionally built-in,<br/> not an after-thought</p>
+                </div>
+            </div>
+            <div class="inline-flex flex-col md:flex-row items-center justify-center gap-14">
+                <div>
+                    <img src="/assets/images/Mockup1.png" alt="iphone with pin" class="w-60">
+                </div>
+                <div>
+                    <h2 class="text-[#229EFF] font-geist font-semibold ">MORE FOR LESS</h2>
+                    <div class="font-polysans-semibold text-5xl mt-4 relative">
+                        Bulk airtime<br/> purchase.
+
+                        <img class="absolute bottom-0 right-0" src="/assets/icons/mockup1.svg" alt="lock">
+                    </div>
+                    <p class="text-2xl font-polysans-regular mt-8">Send airtime to multiple<br/> phone numbers faster.</p>
+                </div>
+            </div>
+            <div class="inline-flex flex-col md:flex-row items-center justify-center gap-14">
+                <div>
+                    <img src="/assets/images/Mockup2.png" alt="iphone with pin" class="w-60">
+                </div>
+                <div>
+                    <h2 class="text-[#A479FF] font-geist font-semibold ">UNIQUELY YOURS</h2>
+                    <div class="font-polysans-semibold text-5xl mt-4 relative">
+                        Designed<br/> for you.
+
+                        <img class="absolute bottom-0 right-0" src="/assets/icons/mockup2.svg" alt="lock">
+                    </div>
+                    <p class="text-2xl font-polysans-regular mt-8">Intuitive, seamless,<br/> and welcoming.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Secure by design  tab upwards view-->
+        <div class="container px-4 mx-auto hidden md:flex items-center justify-center">
+            <div class="inline-flex flex-col md:flex-row items-start justify-center gap-14">
+                
+                <div class="h-screen flex items-center sticky top-0 left-0">
+                    <img loading="lazy" src="/assets/images/Mockup0.png" alt="iphone with pin" class="w-60 iphone">
+                </div>
+                <div>
+                    <div class="py-80 change">
+                        <h2 class="text-[#FF4E4C] font-geist font-semibold ">IN AND OUT</h2>
+                        <div class="font-polysans-semibold text-5xl mt-4 relative">
+                            Secure by<br/> Design
+                            <img class="absolute bottom-0 right-0" src="/assets/icons/mockup0.svg" alt="lock">
+                        </div>
+                        <p class="text-2xl font-polysans-regular mt-8">Intentionally built-in,<br/> not an after-thought.</p>
+                    </div>
+                    <div class="py-80 change">
+                        <h2 class="text-[#229EFF] font-geist font-semibold ">MORE FOR LESS</h2>
+                        <div class="font-polysans-semibold text-5xl mt-4 relative">
+                            Bulk airtime<br/> purchase.
+    
+                            <img class="absolute bottom-0 right-0" src="/assets/icons/mockup1.svg" alt="lock">
+                        </div>
+                        <p class="text-2xl font-polysans-regular mt-8">Send airtime to multiple<br/> phone numbers faster.</p>
+                    </div>
+                    <div class="py-80 change">
+                        <h2 class="text-[#A479FF] font-geist font-semibold ">UNIQUELY YOURS</h2>
+                        <div class="font-polysans-semibold text-5xl mt-4 relative">
+                            Designed<br/> for you.
+    
+                            <img class="absolute bottom-0 right-0" src="/assets/icons/mockup2.svg" alt="lock">
+                        </div>
+                        <p class="text-2xl font-polysans-regular mt-8">Intuitive, seamless,<br/> and welcoming.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -392,7 +462,7 @@
 
                     <!-- emojis -->
                     <img src="/assets/emojis/boy.svg" alt="boy emoji" class="absolute -left-16 -bottom-4 md:-bottom-20">
-                    <img src="/assets/emojis/girl.svg" alt="girl emoji" class="absolute -left-16 top-0 md:-top-20 md:left-12 animate-bounce">
+                    <img src="/assets/emojis/girl.svg" alt="girl emoji" class="absolute -left-16 top-0 md:-top-20 md:left-12">
                     <img src="/assets/emojis/lady.svg" alt="lady emoji" class="absolute -right-16 top-0 md:-top-20 md:-right-24">
                     <img src="/assets/emojis/man.svg" alt="man emoji" class="absolute left-0 right-0 mx-auto -bottom-24 md:-right-96">
                     <img src="/assets/emojis/confetti.svg" alt="confetti emoji" class="absolute left-0 right-0 -top-24 mx-auto">
@@ -427,7 +497,7 @@
 
 
         <!-- Footer -->
-        <div class="bg-[#1A1A1A] py-16 xl:py-20">
+        <div class="bg-[#1A1A1A] py-16 xl:py-20 md:rounded-t-[32px]">
             <div class="container px-4 mx-auto flex flex-col md:flex-row justify-center md:justify-start lg:justify-center items-end flex-wrap gap-10 md:gap-0">
                 <!-- Social media -->
                 <div class="w-full space-y-6 md:basis-1/2 lg:basis-1/3">
@@ -435,7 +505,7 @@
                         <img src="/assets/logos/grey_logo.svg" alt="Orbit logo">
                     </div>
                     <div class="flex items-center gap-6 mt-6 text-[#484848]">
-                        <span class="font-geist text-xl">Follow us</span>
+                        <span class="font-geist text-sm">Follow us</span>
                         <ul class="flex items-center justify-start gap-4">
                             <li><a href="https://www.facebook.com/theorbitfin"  target="_blank">
                                 <img src="/assets/icons/facebook.svg" alt="Facebook">
@@ -452,13 +522,13 @@
                         </ul>
                     </div>
 
-                    <p class="text-[#484848] font-geist">&copy;<span class="date"></span>&nbsp;TheOrbit finance. All rights reserved</p>
+                    <p class="text-[#484848] font-geist text-sm">&copy;<span class="date"></span>&nbsp;TheOrbit finance. All rights reserved</p>
                 </div>
 
                 <!-- Email and phone -->
                 <div class="w-full flex items-end justify-start md:justify-center md:basis-1/2 lg:basis-1/3">
-                    <div class="inline-block text-xl font-geist">
-                        <h class="text-[#767676]">Contact us</h3>
+                    <div class="inline-block font-geist text-sm">
+                        <h class="text-[#767676] text-base">Contact us</h3>
                         <p class="text-[#484848] mt-6">hello@theorbit.finance</p>
                         <p class="text-[#484848] mt-6">+234 704 288 7476</p>
                     </div>
@@ -467,7 +537,7 @@
                 <!-- App -->
                 <div class="w-full flex items-end md:justify-start lg:justify-end md:mt-8 lg:mt-0 md:basis-1/2 lg:basis-1/3">
                     <div class="inline-block">
-                        <div class="flex lg:flex-col items-center justify-between lg:justify-start gap-6 mt-4 nav-links md:gap-6 text-[#767676] text-xs w-full">
+                        <div class="flex lg:flex-col items-center justify-between lg:justify-start gap-6 mt-4 nav-links md:gap-6 text-[#767676] text-[10px] w-full">
                             <a href="#" class="p-4 gap-2 bg-[#333333] rounded-full w-full flex items-center justify-center">
                                 <p class="text-[#767676] font-semibold">Sign in</p>
             
@@ -486,9 +556,8 @@
                             </div>
                         </div>
 
-                        <div class="flex items-center justify-start text-[#484848] gap-1 mt-4"> 
-                            <img src="/assets/icons/smartphone-fill.svg" alt="phone">
-                            <span class="font-geist">Legacy Orbit App V1</span>
+                        <div class="flex items-center justify-center text-[#484848] gap-1 mt-4">
+                            <span class="font-geist text-sm text-center">Legacy Orbit App V1</span>
                         </div>
                     </div>
                 </div>
@@ -499,6 +568,7 @@
         <script src="/scripts/services.js"></script>
         <script src="/scripts/date.js"></script>
         <script src="/scripts/easyLife.js"></script>
+        <script src="./scripts/changingPhones.js"></script>
 
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
