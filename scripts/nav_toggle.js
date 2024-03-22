@@ -10,14 +10,39 @@ const toggleNav = () =>{
     line3.classList.toggle("animate-line3")
 
     navLinks.classList.toggle("hidden")
+    navLinks.classList.toggle("flex")
 }
 
 
-const download = () =>{
+
+let dButton = document.querySelectorAll(".download")
+let qrCode = document.querySelectorAll(".qrCode")
+
+const download = (index) =>{
     console.log(navigator.userAgent)
-    if (/iPad|iPhone|Mac|iPod/.test(navigator.userAgent)) {
-        console.log("This is an iOS device.");
+    let device
+    if (/iPad|iPhone|Mac|AppleWebKit|iPod/.test(navigator.userAgent)) {
+        device = "ios"
     } else {
-        console.log("This is not an iOS device!");
+        device="android"
     }
+    Array.from(dButton).map((b, i)=>{
+        if(index === i){
+            if(window.innerWidth > 500){
+                b.parentNode.children[1].classList.toggle("hidden")
+                b.parentNode.children[0].classList.toggle("hidden")
+                b.parentNode.children[1].classList.toggle("flex")
+            }
+            else {
+                if(device==="ios"){
+                    window.location.href = "https://www.applestore.com"
+                }
+                else{
+                    window.location.href="https://www.playstore.com"
+                }
+            }
+        }
+    })
+
+    
 }
