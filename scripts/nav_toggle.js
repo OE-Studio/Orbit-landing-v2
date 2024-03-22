@@ -21,7 +21,7 @@ let qrCode = document.querySelectorAll(".qrCode")
 const download = (index) =>{
     console.log(navigator.userAgent)
     let device
-    if (/iPad|iPhone|Mac|AppleWebKit|iPod/.test(navigator.userAgent)) {
+    if (/iPad|iPhone|Mac|iPod/.test(navigator.userAgent)) {
         device = "ios"
     } else {
         device="android"
