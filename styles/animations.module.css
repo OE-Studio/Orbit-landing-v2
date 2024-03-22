@@ -50,7 +50,7 @@
 
 
 .fadeUp{
-    animation:fadeUp 1s ease-in-out;
+    animation:fadeUp 0.3s ease-in-out;
 }
 
 @keyframes fadeUp {
@@ -65,7 +65,7 @@
 }
 
 .fadeDown{
-    animation:fadeDown 1s ease-in-out;
+    animation:fadeDown 0.3s ease-in-out;
 }
 
 @keyframes fadeDown {
@@ -77,4 +77,15 @@
         transform:translateY(20px);
         opacity:0;
     }
+}
+
+
+.zoom {
+    transition: 0.5s ease;
+    animation: zoom 0.3s ease-in-out forwards;
+}
+
+@keyframes zoom {
+    from{transform: scale(1);}
+    to{transform: scale(1.2);}
 }

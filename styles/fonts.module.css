@@ -67,7 +67,6 @@
 @font-face {
     font-family: 'GeistVariable';
     src: url('../assets/fonts/Geist/GeistVariableVF.woff2') format('woff');
-    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
