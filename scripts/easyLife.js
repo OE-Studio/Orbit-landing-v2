@@ -93,7 +93,7 @@ console.log(elemWidth)
 const scrollRight =()=>{
     if(currIndex < 2){
         currIndex++
-        let distance = (elemWidth * currIndex) -40
+        let distance = (elemWidth * currIndex) - 60
         console.log(distance)
         scrollElem.scrollTo({
             left:distance,
@@ -106,7 +106,7 @@ const scrollLeft1 =()=>{
     if(currIndex >= 1) {
         currIndex--
         
-        let distance = (elemWidth * currIndex) - 40
+        let distance = (elemWidth * currIndex) - 60
         console.log(distance)
         scrollElem.scrollTo({
             left:distance,
