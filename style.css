@@ -1019,6 +1019,10 @@ video {
   width: 3.5rem;
 }
 
+.w-4\/6 {
+  width: 66.666667%;
+}
+
 .flex-grow {
   flex-grow: 1;
 }
@@ -2338,5 +2342,11 @@ video {
   .xl\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:w-4\/6 {
+    width: 66.666667%;
   }
 }
