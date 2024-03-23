@@ -2349,4 +2349,9 @@ video {
   .\32xl\:w-4\/6 {
     width: 66.666667%;
   }
+
+  .\32xl\:py-96 {
+    padding-top: 24rem;
+    padding-bottom: 24rem;
+  }
 }
